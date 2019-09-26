@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /*PAGE HOLDER*/
+  .container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 10vh 80vh;
+  }
+
+  /*HEADER HOLDER*/
+  .header-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh;
+  }
+
+  .horizontal-nav {
+    display: flex;
+  }
+
+  .horizontal-nav > div {
+    flex: 1;
+  }
+
+  #sidenav-burger,
+  #sidenav-body {
+    display: none;
+  }
+
+  /*SUB HEADER HOLDER*/
+  .sub-header-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 10vh;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /*PAGE HOLDER*/
+  .container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 10vh 80vh;
+  }
+
+  /*HEADER HOLDER*/
+  .header-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh;
+  }
+
+  .horizontal-nav {
+    display: flex;
+  }
+
+  .horizontal-nav > div {
+    flex: 1;
+  }
+
+  #sidenav-burger,
+  #sidenav-body {
+    display: none;
+  }
+
+  /*SUB HEADER HOLDER*/
+  .sub-header-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 10vh;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*PAGE HOLDER*/
+  .container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 10vh 80vh;
+  }
+
+  /*HEADER HOLDER*/
+  .header-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh;
+  }
+
+  .horizontal-nav {
+    display: flex;
+  }
+
+  .horizontal-nav > div {
+    flex: 1;
+  }
+
+  #sidenav-burger,
+  #sidenav-body {
+    display: none;
+  }
+
+  /*SUB HEADER HOLDER*/
+  .sub-header-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 10vh;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /*PAGE HOLDER*/
+  .container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 10vh 80vh;
+  }
+
+  /*HEADER HOLDER*/
+  .header-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh;
+  }
+
+  .horizontal-nav {
+    display: flex;
+  }
+
+  .horizontal-nav > div {
+    flex: 1;
+  }
+
+  #sidenav-burger,
+  #sidenav-body {
+    display: none;
+  }
+
+  /*SUB HEADER HOLDER*/
+  .sub-header-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 10vh;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /*PAGE HOLDER*/
+  .container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 10vh 80vh;
+  }
+
+  /*HEADER HOLDER*/
+  .header-nav {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-rows: 10vh;
+  }
+
+  .header-center {
+    margin-left: 50px;
+  }
+
+  #header-white-space {
+    display: none;
+  }
+
+  .horizontal-nav {
+    display: none;
+  }
+
+  #sidenav-burger,
+  #sidenav-body {
+    display: block;
+  }
+
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+
+  /*SUB HEADER HOLDER*/
+  .sub-header-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 10vh;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /*PAGE HOLDER*/
+  .container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 10vh 80vh;
+  }
+
+  /*HEADER HOLDER*/
+  .header-nav {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-rows: 10vh;
+  }
+
+  .header-center {
+    margin-left: 50px;
+  }
+
+  #header-white-space {
+    display: none;
+  }
+
+  .horizontal-nav {
+    display: none;
+  }
+
+  #sidenav-burger,
+  #sidenav-body {
+    display: block;
+  }
+
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+
+  /*SUB HEADER HOLDER*/
+  .sub-header-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 10vh;
+  }
+}
+
+/* 
+  ##Device = Ultra small Smartphone Mobile screens
+  ##Screen = B/w 150px to 319px
+*/
+
+@media (min-width: 150px) and (max-width: 319px) {
+  /*PAGE HOLDER*/
+  .container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 10vh 80vh;
+  }
+
+  /*HEADER HOLDER*/
+  .header-nav {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-rows: 10vh;
+  }
+
+  .header-center {
+    margin-left: 50px;
+  }
+
+  #header-white-space {
+    display: none;
+  }
+
+  .horizontal-nav {
+    display: none;
+  }
+
+  #sidenav-burger,
+  #sidenav-body {
+    display: block;
+  }
+
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+
+  /*SUB HEADER HOLDER*/
+  .sub-header-holder {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 10vh;
+  }
+}
+
+.nav {
+  display: flex;
+}
+
+.nav > div {
+  flex: 1;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: var(--bg-black);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.header-nav {
+  border-bottom: 1px solid var(--bg-grey);
+}
